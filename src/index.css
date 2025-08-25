@@ -14,3 +14,13 @@
   --font-sans: "DM Sans", sans-serif; /* body text */
   --font-heading: "Poppins", sans-serif; /* headings */
 }
+
+/* Navbar spacing compensation */
+#main-layout {
+  padding-top: 90px; /* Compensate for fixed navbar height */
+}
+
+/* Smooth scrolling for anchor links */
+html {
+  scroll-behavior: smooth;
+}
