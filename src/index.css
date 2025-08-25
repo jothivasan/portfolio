@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Poppins:wght@400;500;600;700&display=swap");
+
+@theme {
+  /* Colors */
+  --color-background: #000000;
+  --color-secondary-background: #222222;
+  --color-primary: #1dcd9f;
+  --color-primary-light: #169976;
+  --color-white: #ffffff;
+
+  /*Fonts */
+  --font-sans: "DM Sans", sans-serif; /* body text */
+  --font-heading: "Poppins", sans-serif; /* headings */
+}
